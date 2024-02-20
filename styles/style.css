@@ -1,99 +1,100 @@
 
-
-body {
-    font-family: 'Roboto';
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.jumbotron {
-    background-color: #DEDEDE;
-    padding: 1.5rem;
-    margin: 0;
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
-}
-
-.text-center {
-    text-align: center;
-}
-
-form {
-    width: 95%;
-    margin-left: 2.5%;
-    border: 1px solid darkgray;
-    border-radius: 0.3rem;
-    margin-bottom: 2rem;
-}
-
-#div-in-form {
-    width: 100%;
-    margin-top: 1.5rem;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    width: 100%;
-}
-
-.col label {
-    width: 95%;
-    margin-bottom: 0.25rem;
-}
-
-.col input {
-    width: 90%;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    border: 1px solid darkgray;
-}
-
-.col input[type="text"]:focus {
-    outline-color: #007bff;
-}
-
-.col input[type="color"] {
-    padding: 0.2rem;
-    width: 95%;
-}
-
-#div-with-a {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-}
-
-#div-with-a a {
-    margin: 0.5rem;
-    background-color: rgb(30, 144, 255);
-    color: white;
-    text-decoration: none;
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.3rem;
-    cursor: pointer;
-}
-
-aside {
-    display: none;
-}
-
-td {
-    width: 125px;
-    height: 125px;
-    font-size: 50px;
-    border: 1px solid darkgray;
-    text-align: center;
+@media (max-width: 415px) { /* Detta borde vara mobile first och inte köra media quesries för mobil även oklart om det är max 414px eller 415px */
+    body {
+        font-family: 'Roboto';
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .jumbotron {
+        background-color: #DEDEDE;
+        padding: 1.5rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        border-radius: 0.3rem;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    form {
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid darkgray;
+        border-radius: 0.3rem;
+        margin-bottom: 2rem;
+    }
+    
+    #div-in-form {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+    }
+    
+    .col label {
+        width: 95%;
+        margin-bottom: 0.25rem;
+    }
+    
+    .col input {
+        width: 90%;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        border: 1px solid darkgray;
+    }
+    
+    .col input[type="text"]:focus {
+        outline-color: #007bff;
+    }
+    
+    .col input[type="color"] {
+        padding: 0.2rem;
+        width: 95%;
+    }
+    
+    #div-with-a {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    
+    #div-with-a a {
+        margin: 0.5rem;
+        background-color: rgb(30, 144, 255);
+        color: white;
+        text-decoration: none;
+        padding: 0.3rem 0.5rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    td {
+        width: 125px;
+        height: 125px;
+        font-size: 50px;
+        border: 1px solid darkgray;
+        text-align: center;
+    }
 }
 
 .d-none {
